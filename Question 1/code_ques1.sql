@@ -1,4 +1,3 @@
---ANS 1
 CREATE TABLE Employees1 (
     emp_id INT PRIMARY KEY,
     emp_name VARCHAR(50),
