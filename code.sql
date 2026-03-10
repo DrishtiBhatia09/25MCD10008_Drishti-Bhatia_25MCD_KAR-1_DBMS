@@ -46,3 +46,5 @@ INSERT INTO Employees2 VALUES
 SELECT MAX(salary) AS Second_highest_salary 
 from Employees2
 where salary<(SELECT MAX(salary) from Employees2);
+
+
